@@ -1,7 +1,7 @@
 package org.grupo4.task.domain;
 
 public class Task {
-    private final Integer id;
+    private Integer id;
     private String name;
     private Boolean status;
 
@@ -41,6 +41,10 @@ public class Task {
         if (this.isStatus()) {
             this.status = Boolean.FALSE;
         }
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public void changeName(String newName) {

@@ -12,6 +12,9 @@ target/
 ## Maven
 .mvn/
 
+## Environment
+env.properties
+
 ### Eclipse ###
 .apt_generated
 .classpath
